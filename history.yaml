@@ -1,0 +1,16 @@
+  exclude:
+    domains:
+      - automation
+      - updater
+      - binary_sensor
+      - device_tracker
+      - light
+      - media_player
+      - script
+      - sensor
+      - sun
+      - switch
+  include:
+    entities:
+      - sensor.iphone_van_sander_geocoded_location
+      - sensor.iphone_van_tanya_geocoded_location
