@@ -1,0 +1,21 @@
+  devices:
+    192.168.11.209:
+      name: Staande lamp
+      save_on_change: true
+      transition : 1000
+      model: ct_bulb
+    192.168.11.208:
+      name: Tuinkant lamp
+      save_on_change: true
+      transition: 1000
+      model: ct_bulb
+    192.168.11.210:
+      name: Bankhoek lamp
+      save_on_change: true
+      transition: 1000
+      model: ct_bulb
+    192.168.11.106:
+      name: Badkamer lamp
+      save_on_change: true
+      model: ceiling1
+      transition: 1000
