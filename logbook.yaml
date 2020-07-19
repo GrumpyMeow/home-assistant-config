@@ -1,0 +1,8 @@
+  exclude:
+    domains:
+      - automation
+      - media_player
+      - sun
+      - binary_sensor
+    entities:
+      - sensor.ebus_vdatetime
