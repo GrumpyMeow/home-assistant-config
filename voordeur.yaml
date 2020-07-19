@@ -1,0 +1,19 @@
+  push:
+    categories:
+      - name: open_voordeur
+        identifier: 'voordeur'
+        actions:
+          - identifier: 'OPEN_VOORDEUR'
+            title: 'Open voordeur'
+            activationMode: 'background'
+            authenticationRequired: false
+            destructive: false
+            behavior: 'default'
+      - name: Deurbel met voordeur
+        identifier: 'camera'
+        actions:
+          - identifier: 'OPEN_VOORDEUR'
+            title: 'Open voordeur'
+            activationMode: 'background'
+            authenticationRequired: false
+            destructive: true
